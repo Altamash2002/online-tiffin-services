@@ -1,0 +1,44 @@
+#chef-poster{
+    background:  rgba(0, 0, 0, 0.5) url(../images/chef-images/bg2.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-blend-mode: darken;
+    height: max-content;
+    color: white;
+}
+#chef-poster-text h1{
+    font-size: 70px;
+}
+#chef-poster-text h3{
+    font-size: 40px;
+}
+#chef-poster-text p{
+    font-size: 20px;
+}
+#address{
+    resize: none;
+    width: 89%;
+    height: 150px;
+}
+#shef-accept{
+    font-weight: bold;
+    font-size: 20px;
+}
+.form-check-label{
+    margin: 0;
+}
+
+@media screen and (max-width: 910px) {
+    #chef-poster-text h1{
+        font-size: 50px;
+    }
+    #chef-poster-text h3{
+        font-size: 27px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #address{
+        width: 100%;
+    }
+}
+

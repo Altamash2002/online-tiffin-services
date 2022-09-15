@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header";
+import AboutUs from "./pages/about";
+import Chef from "./pages/chef";
+import NavHome from "./pages/nav-home";
+import Register from "./pages/register";
+import Login from "./pages/login";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Footer from "./components/footer";
+import PrivacyPolicy from "./pages/privacyPolicy";
+import TermsOfServices from "./pages/Terms";
+import InsideLogin from "./pages/insideLogin";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <Header/>
+
+      <Routes>
+        <Route path="/" element={<NavHome />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="chef" element={<Chef />} />
+        <Route path="register" element={<Register />} />
+        <Route path="login" element={<Login />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="terms-of-services" element={<TermsOfServices />} />
+        <Route path="inside-login" element={<InsideLogin />} />
+      </Routes>
+
+      <Footer/>
     </div>
   );
 }

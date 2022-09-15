@@ -1,0 +1,124 @@
+
+/* home poster styling start */
+#home-poster{
+    background:  rgba(0, 0, 0, 0.5) url(../images/home-images/bg1.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 700px;
+    color: white;
+}
+#home-poster-text h1{
+    font-size: 80px;
+}
+#home-poster-text p{
+    font-size: 19px;
+}
+#home-poster-text {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+}
+.home-poster-link{
+    color: rgb(205, 190, 190);
+    text-decoration: none;
+    font-weight: bold;
+}
+#home-poster-p1{
+    font-size: 35px !important;
+    font-weight: bold;
+}
+
+/* home poster styling end */
+
+/* dishes information styling start */
+#dish-info h1{
+    color: #db2b2b;
+}
+.images-3{
+    width: 200px;
+    height: 200px;
+}
+/* dishes information styling end */
+
+/* featured dishes start */
+
+#feature-dishes h1{
+    color: #db2b2b;
+}
+.feature-image-div{
+    display: inline-block;
+}
+.feature-images:hover {
+    opacity: 0.6;
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.feature-images{
+    transition: transform 0.7s ease;
+    -webkit-transition: -webkit-transform 0.7s;
+    -moz-transition: -moz-transform 0.7s;
+    -o-transition: -o-transform 0.7s;
+}
+
+/* featured dishes end */
+
+/* why try tiffin start */
+#why-tiffin h1{
+    color: #db2b2b;
+}
+/* why try tiffin ends */
+
+/* ready to order start */
+#ready-order{
+    height: 400px;
+    background-color: whitesmoke;
+}
+#ready-order h1{
+    color: #db2b2b;
+}
+/* ready to order end */
+
+/* responsive for ipad pro */
+@media screen and (max-width: 1024px){
+    /* home poster */
+    #home-poster-text h1{
+        font-size: 70px;
+    }
+    #home-poster-p1{
+        font-size: 30px !important;
+    }
+}
+
+/* responsive for ipad */
+@media screen and (max-width: 768px){
+    /* home poster */
+    #home-poster-text h1{
+        font-size: 65px;
+    }
+    #home-poster-p1{
+        font-size: 28px !important;
+    }
+}
+
+/* responsive for mobile */
+@media screen and (max-width: 500px){
+    /* home poster */
+    #home-poster-text h1{
+        font-size: 33px;
+        margin-bottom: 40px;
+    }
+    #home-poster-p1{
+        font-size: 22px !important;
+        margin-bottom: 40px;
+    }
+    #home-poster-text {
+        margin-top: 10%;
+        margin-left: 2%;
+        width: 95%;
+    }
+}
+

@@ -1,0 +1,21 @@
+.input-fields{
+    background-color: wheat;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    width: 430px;
+}
+.input-fields::placeholder {
+    color: #db2b2b;
+}
+
+@media screen and (max-width: 1024px) {
+    .input-fields{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .input-fields{
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+#navbar{
+  border-bottom: 1px solid rgb(227, 225, 225);
+}
+
+/* Specific styles for non-active links */
+.link {
+  color: #db2b2b;
+  font-weight: bold;
+}
+  
+  /* Specific styles for active links */
+.link-active {
+  border-bottom: 3px solid rgb(255, 165, 0);
+  /* text-decoration: underline; */
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #ff0000;
+  font-weight: bold;
+}
+.nav-link:focus{
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* setting width of the navbar li */
+.nav-item{
+  width: fit-content;
+}
