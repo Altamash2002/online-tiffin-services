@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/online-tiffin-services/static/css/main.499cbc9f.css",
+    "main.js": "/online-tiffin-services/static/js/main.29c5018b.js",
+    "static/media/bg2.jpg": "/online-tiffin-services/static/media/bg2.6f635de5fbf89c457bae.jpg",
+    "static/media/register-image.jpg": "/online-tiffin-services/static/media/register-image.d0941a5525fd4a8f3783.jpg",
+    "static/media/login-image.jpg": "/online-tiffin-services/static/media/login-image.d1a875b9eec002b5c58f.jpg",
+    "static/media/bg1.jpg": "/online-tiffin-services/static/media/bg1.7d7e00b0d82c236447d4.jpg",
+    "static/media/logo-image.png": "/online-tiffin-services/static/media/logo-image.154b112d6c6373b2ada8.png",
+    "static/media/img2.png": "/online-tiffin-services/static/media/img2.1bf8d2a11e8922699fd8.png",
+    "static/media/home-image-3.jpg": "/online-tiffin-services/static/media/home-image-3.c19f9891cea6f73b65d2.jpg",
+    "static/media/home-image-1.jpg": "/online-tiffin-services/static/media/home-image-1.088ff829f290256b939d.jpg",
+    "static/media/img3.png": "/online-tiffin-services/static/media/img3.9dafaa881bc04db31dcc.png",
+    "static/media/home-image-2.jpg": "/online-tiffin-services/static/media/home-image-2.e762262031c643765424.jpg",
+    "static/media/img1.png": "/online-tiffin-services/static/media/img1.2d73acec19214967b57f.png",
+    "index.html": "/online-tiffin-services/index.html",
+    "main.499cbc9f.css.map": "/online-tiffin-services/static/css/main.499cbc9f.css.map",
+    "main.29c5018b.js.map": "/online-tiffin-services/static/js/main.29c5018b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.499cbc9f.css",
+    "static/js/main.29c5018b.js"
+  ]
+}
